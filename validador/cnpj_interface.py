@@ -5,6 +5,7 @@ cnpj = limpar(cnpj)
 cnpj2 = cnpj[:-2]
 
 multiplica = [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2]
+
 if len(cnpj) == 14:
 
     num1 = ultnum(cnpj2, multiplica)
