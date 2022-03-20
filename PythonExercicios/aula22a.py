@@ -1,0 +1,8 @@
+print('Analise, do seu nome...')
+nome = str(input('Digite o seu nome compreto? ')).strip()
+print('Seu nome em Maiusculo: {}'.format(nome.upper()))
+print('Seu nome em Minusculo: {}'.format(nome.lower()))
+print('Seu nome tem {} letras ao todo!'.format(len(nome)-nome.count(' ')))
+#print('O seu primeiro tem {} letras!'.format(nome.find(' ')))
+sep = nome.split()
+print('O seu primeiro nome é {} e tem {} letras!'.format(sep[0], len(sep[0])))

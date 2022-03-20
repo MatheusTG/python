@@ -1,0 +1,7 @@
+n1 = float(input('Digite um distancia em metros: '))
+print('Coversão para Quilometros: {}'.format(n1/1000))
+print('Conversão para Equitometro: {}'.format(n1/100))
+print('Conversão para Decametro: {}'.format(n1/10))
+print('Conversão para Decimetro: {}'.format(n1*10))
+print('Convesão para Centimetro: {}'.format(n1*100))
+print('Conversão para Milimetro: {}'.format(n1*1000))
