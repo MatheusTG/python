@@ -1,6 +1,3 @@
-from tkinter import Y
-
-
 x = input("Digite a variável X: ")
 y = input("Digite a variável Y: ")
 
